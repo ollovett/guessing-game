@@ -19,7 +19,7 @@
             //tell user max value that can be set
             //ask user for number
             //check if valid
-                //if valid than set number and return number
+                //if valid than set number and return to menu
                 //if not then tell user not valid and loop
 
         //if user selects 3

@@ -21,6 +21,7 @@ int main(){
 
             srand(time(0));
             int correctNumber = rand() % (userMax + 1);
+            printf("The max number is %d\n", userMax);
 
             while (winCon == 1){
                 printf("Enter a number to guess:\n");
@@ -44,8 +45,11 @@ int main(){
         }
         else if (userNum == 2){
             int y = 1;
+            printf("The biggest value that can be set is 100.\n");
+            printf("The current max number is %d\n", userMax);
+            
             while (y == 1){
-                printf("The biggest value that can be set is 100.\n");
+                
                 printf("Enter max number:\n");
                 scanf("%d", &userMax);
                 
